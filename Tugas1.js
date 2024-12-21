@@ -40,6 +40,12 @@ const gakAda = range.filter(num => !unique[num]);
 console.log('ada =', ada); // Output: ada = [1, 4]
 console.log('gak ada =', gakAda); // Output: gak ada = []
 
+
+// check the similarity
+// - [7, 8, 9]
+// - [7, 9, 10, 11]
+// dengan hasil output [7, 9]
+
 console.log("");
 console.log("Soal No. 3");
 
